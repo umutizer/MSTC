@@ -232,9 +232,10 @@ int main(int argc, char* argv[]) {
     confary = new bool[E * E];
     memset(confary, 0, (E * E) * (sizeof(bool)));
 
-    directory = "C:\\MSTC\\";
+    directory = "C:\\MSTC\\"; // Change the path accordingly
     
     generateMSTCInstance(numVertices, numEdges, numConflicts, randomIndex, directory);
 
     return 0;
 }
+
